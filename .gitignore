@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# C/C++ build artifacts
+*.o
+*.a
+*.so
+*.out
+*.exe
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temp
+*.log
+tmp/
+temp/
+temp_result/
+backup/
+
+# System
+.DS_Store
+
+# Python cache in nested dirs
+**/__pycache__/
+
+# Optional large experiment outputs
+ncclFlowModel_*.csv
